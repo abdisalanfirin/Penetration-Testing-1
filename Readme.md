@@ -58,19 +58,22 @@ Your client has asked that you help identify any vulnerabilities with their file
 
     - nmap -T4 -A -v 192.168.0.10 -o metasploitable.nmap
    
+![running the nmap script](./Images/snap-5.PNG)
+
 - Bonus command to output results into a new text file named zenmapscan.txt?
 
     - nmap -sV -oN zenmapscan.txt
+   
+   ![running the nmap script](./Images/snap-6.PNG)
 
 - Zenmap vulnerability script command?
 
     - nmap -T4 -A -v --script vulners -p 139,445 192.168.0.10 -o metasploitable.nmap
 
-![Running Nmap and putting in to file](./Images/snap-3.PNG)
+![Running Nmap and putting in to file](./Images/snap-7.PNG)
 
-![running the nmap script](./Images/snap-4.PNG)
-  
-Once you have identified this vulnerability, answer the following questions for your client:
+
+- Once you have identified this vulnerability, answer the following questions for your client:
 
 - What is the vulnerability?
 
